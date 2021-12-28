@@ -1,0 +1,13 @@
+[package]
+name = "plox"
+version = "0.1.0"
+edition = "2021"
+authors = ["Liv <liv.fischer@senacor.com>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.1.0"
+tokio = { version = "1.0.0", features = ["net", "io-util", "rt", "macros", "rt-multi-thread", "io-std"] }
+futures = "0.3.0"
